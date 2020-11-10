@@ -1,1 +1,3 @@
-# info2180-lab4
+# iNFO2180 Lab 4
+
+This is Lab 4 for Malik Edwards
