@@ -9,12 +9,34 @@
 </head>
 <body>
     <header>
-        <h1>Avengers Character Search</h1>
+        <div class="container">
+            <h1>Avengers Character Search</h1>
+        </div>
+        
     </header>
     <main>
-        <div>
-            <button type="button" id="search-btn" class="btn">Search</button>
-        </div>
+        <section class="search">
+            <div class="container">
+                <!--<h4>Search by Full Name or Alias</h4>-->
+                <form action="" method="GET">
+                    <label for="query"><strong>Search by Full Name or Alias</strong></label>
+                    <div class="search-group">
+                        <input type="text" name="query" id="query" placeholder="e.g Captain America or Steve Rogers">
+                        <button type="button" id="search-btn" class="btn">Search</button>
+                    </div>
+                </form>
+                <div class="message"></div>
+            </div>
+        </section>
+        <section class="results">
+            <div class="container">
+                <h2>Result</h2>
+                <hr>
+                <div id="result">
+                </div>
+            </div>
+        </section>
+            
     </main>
     <footer>
 
